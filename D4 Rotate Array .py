@@ -17,3 +17,9 @@ Explanation: when we rotate 9 times, we'll get 3 9 1 7 as resultant array.
 '''
 
 Class Solution:
+  def rotateArray(self,arr,d):
+    n=len(arr)
+    d%=n
+    left=arr[:d]
+    right[d:]
+    arr[:]=right + left
