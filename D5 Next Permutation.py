@@ -19,7 +19,7 @@ class Solution:
     def nextPermutation(self, arr):
         # code here
         i=len(arr)-2
-        while i>=0 and arr[i]>=arr[i+1]:
+        while i>=0 and arr[i]>=arr[i+1]:     #i is bigger than index and i bigger than its before element 
             i-=1
         if i>=0:
             j=len(arr)-1
